@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About";
+import BackToTopBtn from "./components/BackToTopBtn";
 import Brands from "./components/Brands";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -24,6 +25,7 @@ const App = () => {
       <Testimonial />
       <Contact />
       <Footer />
+      <BackToTopBtn />
       <div style={{ height: "2000px" }}></div>
     </div>
   );

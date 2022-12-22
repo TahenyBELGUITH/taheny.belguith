@@ -3,8 +3,6 @@ import React from "react";
 // import social data
 import { social } from "../data";
 
-// import logo
-import Logo from "../assets/img/logo.svg";
 const Footer = () => {
   return (
     <footer className="bg-tertiary py-12">
@@ -21,11 +19,9 @@ const Footer = () => {
               );
             })}
           </div>
-
-          {/* logo */}
-      <img src={Logo} />
-      {/* copyright */}
-      <p>&copy; 2023 Taheny Belguith. All rights reserved.</p>
+          <br></br>
+          {/* copyright */}
+          <p>&copy; 2023 Taheny Belguith. All rights reserved.</p>
         </div>
       </div>
     </footer>
