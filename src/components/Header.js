@@ -22,7 +22,9 @@ function Header() {
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
         <a href="#">
-          <h2>Taheny Belguith</h2>
+          <h2 className="font-body text-[24px]">
+            Tah<span className=" text-accent">tou</span>ha
+          </h2>
         </a>
         {/* nav */}
         <div className="hidden lg:block">
