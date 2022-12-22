@@ -4,7 +4,7 @@ import React from "react";
 import Image from "../assets/img/about.webp";
 const About = () => {
   return (
-    <section className="section bg-secondary">
+    <section id="about" className="section bg-secondary">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
           <img
@@ -26,9 +26,9 @@ const About = () => {
                 several months completely immersed in remote development,
                 building everything from landing pages to rails APIs. I love
                 coding specifically because I love the puzzle-solving aspect of
-                it. This has made me participate in different hackathons. <br></br>Are you currently
-                looking for a passionate Front-end Web engineer? Let's meet up!
-                Send me an email
+                it. This has made me participate in different hackathons.{" "}
+                <br></br>Are you currently looking for a passionate Front-end
+                Web engineer? Let's meet up! Send me an email
               </p>
             </div>
             <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
