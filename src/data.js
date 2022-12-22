@@ -45,27 +45,27 @@ import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 // navigation
 export const navigation = [
   {
-    name: 'home',
+    name: '1.home',
     href: 'home',
   },
   {
-    name: 'about',
+    name: '2.about',
     href: 'about',
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: '3.portfolio',
+    href: '4.portfolio',
   },
   {
-    name: 'services',
+    name: '5.services',
     href: 'services',
   },
   {
-    name: 'testimonials',
+    name: '6.testimonials',
     href: 'testimonials',
   },
   {
-    name: 'contact',
+    name: '7.contact',
     href: 'contact',
   },
 ];
