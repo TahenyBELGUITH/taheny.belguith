@@ -1,6 +1,8 @@
 import React from "react";
 import About from "./components/About";
 import Brands from "./components/Brands";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 // import components
 import Header from "./components/Header";
@@ -20,6 +22,8 @@ const App = () => {
       <Portfolio />
       <Services />
       <Testimonial />
+      <Contact />
+      <Footer />
       <div style={{ height: "2000px" }}></div>
     </div>
   );
