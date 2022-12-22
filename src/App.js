@@ -26,7 +26,6 @@ const App = () => {
       <Contact />
       <Footer />
       <BackToTopBtn />
-      <div style={{ height: "2000px" }}></div>
     </div>
   );
 };
