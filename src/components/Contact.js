@@ -13,7 +13,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_e1vbcnp",
-        "template_v6spw9w",
+        "template_z6octra",
         form.current,
         "f2F8PmDNBZRa2pl56"
       )
@@ -26,6 +26,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
   return (
     <section className="section bg-primary" id="contact">
@@ -75,12 +76,14 @@ const Contact = () => {
                 type="text"
                 placeholder="Your name"
                 required
+                name="name"
               />
               <input
                 className="input"
                 type="text"
                 placeholder="Your email"
                 required
+                name="email"
               />
             </div>
             <input
@@ -88,11 +91,13 @@ const Contact = () => {
               type="text"
               placeholder=" Subject"
               required
+              name="subject"
             />
             <textarea
               className="textarea"
               placeholder="Your message"
               required
+              name="message"
             ></textarea>
             <button
               value="send"
