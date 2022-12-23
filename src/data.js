@@ -21,12 +21,12 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from "./assets/img/projects/p1.webp";
-import Project2 from "./assets/img/projects/p2.webp";
-import Project3 from "./assets/img/projects/p3.webp";
-import Project4 from "./assets/img/projects/p4.webp";
-import Project5 from "./assets/img/projects/p5.webp";
-import Project6 from "./assets/img/projects/p6.webp";
+import Project1 from "./assets/img/projects/p1.png";
+import Project2 from "./assets/img/projects/p2.png";
+import Project3 from "./assets/img/projects/p3.png";
+import Project4 from "./assets/img/projects/p4.png";
+import Project5 from "./assets/img/projects/p5.png";
+import Project6 from "./assets/img/projects/p6.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -127,8 +127,9 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "project name 1",
+    name: "Expo Dubai Summit",
     category: "UI/UX design",
+    href: "https://conference-page.vercel.app/",
   },
   {
     id: "2",
@@ -183,42 +184,42 @@ export const skills = [
   {
     name: "ReactJS",
     level: 90,
-    color: "#1AA7EC",
+    color: "#cd853f ",
   },
   {
     name: "Redux",
     level: 85,
-    color: "#A202FF",
+    color: "#cd853f ",
   },
   {
     name: "Tailwind",
     level: 82,
-    color: "#4ADEDE",
+    color: "#cd853f ",
   },
   {
     name: "Ruby",
     level: 90,
-    color: "#FF0000",
+    color: "#cd853f ",
   },
   {
     name: "JavaScript",
     level: 85,
-    color: "#e9d700",
+    color: "#cd853f ",
   },
   {
     name: "Rails",
     level: 89,
-    color: "#cc0000",
+    color: "#cd853f ",
   },
   {
     name: "PostgreSQL",
     level: 78,
-    color: "#0b5394",
+    color: "#cd853f ",
   },
   {
     name: "mySQL",
     level: 85,
-    color: "#fa6c08",
+    color: "#cd853f ",
   },
   {
     name: "Jest",

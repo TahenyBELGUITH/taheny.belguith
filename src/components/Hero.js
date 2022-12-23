@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="flex items-center h-full pt-8">
           {/* left Side */}
           <div className="flex-1 flex flex-col items-center lg:items-start">
-            <h1 className="text-4x1 leading-[44px] md:text-5x1 md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] pt-3">
+            <h1 className="text-4x1 leading-[44px] md:text-5x1 md:leading-tight lg:text-7xl  font-bold pt-3">
               I Build & Design <br /> Web Interfaces
             </h1>
             <Typewriter

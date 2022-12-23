@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 // import contact data
 import { contact } from "../data";
@@ -27,6 +28,15 @@ const Contact = () => {
         }
       );
     e.target.reset();
+  };
+
+  const showAlert = () => {
+    Swal.fire({
+      title: "Success",
+      text: "Thank you, I'll contact you soon",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
   };
   return (
     <section className="section bg-primary" id="contact">
@@ -106,7 +116,7 @@ const Contact = () => {
             >
               Send message
             </button>
-            <span>{done && "Thanks for contacting me!"}</span>
+            <span>{done && showAlert()}</span>
           </form>
         </div>
       </div>
