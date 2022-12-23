@@ -29,8 +29,8 @@ const Hero = () => {
 
             <p className="pt-4 pb-8 md:pb-12 maw-w-[480px] text-lg text-center lg:text-left">
               {" "}
-              my passion for software lies with dreaming up ideas
-              and Making them come true with elegant interfaces.
+              my passion for software lies with dreaming up ideas and Making
+              them come true with elegant interfaces.
             </p>
 
             <a href="#contact">
@@ -41,6 +41,8 @@ const Hero = () => {
                 Work with me
               </button>
             </a>
+            <br></br>
+            <br></br>
           </div>
 
           {/* right Side */}

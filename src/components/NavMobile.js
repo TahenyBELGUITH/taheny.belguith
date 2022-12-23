@@ -55,7 +55,7 @@ function NavMobile() {
       </div>
 
       <motion.div
-        className="w-4 h-4 rounded-full bg-accent fixed top-0 right-0"
+        className="w-4 h-8 rounded-full bg-accent fixed top-0 right-0"
         variants={circleVariants}
         initial="hidden"
         animate={isOpen ? "visible" : "hidden"}
@@ -75,7 +75,7 @@ function NavMobile() {
           onClick={() => {
             setIsOpen(false);
           }}
-          className="cursor-pointer absolute top-8 right-8"
+          className="cursor-pointer absolute top-12 right-12"
         >
           <XIcon className="w-8 h-8" />
         </div>
