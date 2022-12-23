@@ -15,29 +15,20 @@ const About = () => {
 
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
-              <h2 className="text-[34px] lg:text-4x1 font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[3rem] before:hidden before:lg:block font-body ">
-                Taheny Belguith
+              <h2 className="text-[34px] lg:text-4x1 lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[3rem] before:hidden before:lg:block font-body ">
+                BELGUITH Taheny
               </h2>
               <p className="mb-4 text-accent text-[24px] font-body">
-                Full-Stack Engineer
+                full-stack engineer
               </p>
               <hr className="mb-8 opacity-5" />
-              <p className="mb-8 text-white">
+              <p className="mb-8">
                 I’m currently completing coursework at Microverse, a remote
                 software development platform that allows devs worldwide to
-                <span className="text-accent">
-                  {" "}
-                  pair-program and build projects together{" "}
-                </span>
-                . I’ve spent the last several months completely immersed in{" "}
-                <span className="text-accent">
-                  {" "}
-                  remote development </span>, building everything from landing pages to
-                  rails APIs
-                . I love coding specifically because I love the puzzle-solving
-                aspect of it. This has made me participate in different
-                hackathons. <br></br>Are you currently looking for a passionate
-                Front-end Web engineer? Let's meet up! Send me an email
+                pair-program and build projects together . <br />
+                I’ve spent the last several months completely immersed in remote
+                development building everything from landing pages to rails APIs
+                .
               </p>
             </div>
             <a href="#contact" className="flex gap-6">

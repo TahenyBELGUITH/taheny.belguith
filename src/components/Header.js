@@ -20,12 +20,6 @@ function Header() {
     } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
     >
       <div className="container mx-auto h-full flex items-center justify-between">
-        {/* logo */}
-        <a href="#">
-          <h2 className="font-body text-[24px]">
-            Tah<span className=" text-accent">tou</span>ha
-          </h2>
-        </a>
         {/* nav */}
         <div className="hidden lg:block">
           <Nav />

@@ -21,7 +21,7 @@ const Hero = () => {
               onInit={(typewriter) => {
                 typewriter
                   .typeString(
-                    "I'm A Passionate Self-Taught Full-Stack Software Developer"
+                    "I'm a passionate self-taught full-stack software engineer ."
                   )
                   .start();
               }}
@@ -29,8 +29,8 @@ const Hero = () => {
 
             <p className="pt-4 pb-8 md:pb-12 maw-w-[480px] text-lg text-center lg:text-left">
               {" "}
-              From Tunisia. My Passion For Software Lies With Dreaming Up Ideas
-              And Making Them Come True With Elegant Interfaces.
+              my passion for software lies with dreaming up ideas
+              and Making them come true with elegant interfaces.
             </p>
 
             <a href="#contact">

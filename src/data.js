@@ -181,28 +181,74 @@ export const projectsNav = [
 // skill
 export const skills = [
   {
-    image: SkillImg1,
+    name: "ReactJS",
+    level: 90,
+    color: "#1AA7EC",
   },
   {
-    image: SkillImg2,
+    name: "Redux",
+    level: 85,
+    color: "#A202FF",
   },
   {
-    image: SkillImg3,
+    name: "Tailwind",
+    level: 82,
+    color: "#4ADEDE",
   },
   {
-    image: SkillImg4,
+    name: "Ruby",
+    level: 90,
+    color: "#FF0000",
   },
   {
-    image: SkillImg5,
+    name: "JavaScript",
+    level: 85,
+    color: "#e9d700",
   },
   {
-    image: SkillImg6,
+    name: "Rails",
+    level: 89,
+    color: "#cc0000",
   },
   {
-    image: SkillImg7,
+    name: "PostgreSQL",
+    level: 78,
+    color: "#0b5394",
   },
   {
-    image: SkillImg8,
+    name: "mySQL",
+    level: 85,
+    color: "#fa6c08",
+  },
+  {
+    name: "Jest",
+    level: 89,
+    color: "#741b47",
+  },
+  {
+    name: "Oracle",
+    level: 85,
+    color: "#fd1504",
+  },
+  {
+    name: "Postman",
+    level: 99,
+    color: "#fa6c08",
+  },
+  {
+    name: "Git",
+    level: 90,
+    color: "#999999",
+  },
+  {
+    name: "Bootstrap",
+    level: 97,
+    color: "#674ea7",
+  },
+  {
+    name: "Java",
+    level: 50,
+    color: "#0b5394",
   },
 ];
 
@@ -288,12 +334,11 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at taheny.belguith@gmail.com",
+    description: "taheny.belguith@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Khniss, Tunisia",
     description: "Serving clients worldwide",
   },
 ];

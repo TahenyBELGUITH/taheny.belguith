@@ -17,15 +17,14 @@ const TestimonialSlider = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1}
         pagination={{
           clickable: true,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 4500,
           disableOnInterAction: false,
         }}
-        modules={{ Autoplay, Pagination }}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         {testimonials.map((item, index) => {
