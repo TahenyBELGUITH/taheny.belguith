@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 // import woman image
 import WomanImg from "../assets/img/banner-woman2.webp";
@@ -16,11 +17,20 @@ const Hero = () => {
             <h1 className="text-4x1 leading-[44px] md:text-5x1 md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] pt-3">
               I Build & Design <br /> Web Interfaces
             </h1>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(
+                    "I'm A Passionate Self-Taught Full-Stack Software Developer"
+                  )
+                  .start();
+              }}
+            />
 
             <p className="pt-4 pb-8 md:pb-12 maw-w-[480px] text-lg text-center lg:text-left">
-              I'm A Passionate Self-Taught Full-Stack Software Developer From
-              Tunisia. My Passion For Software Lies With Dreaming Up Ideas And
-              Making Them Come True With Elegant Interfaces.
+              {" "}
+              From Tunisia. My Passion For Software Lies With Dreaming Up Ideas
+              And Making Them Come True With Elegant Interfaces.
             </p>
 
             <a href="#contact">
