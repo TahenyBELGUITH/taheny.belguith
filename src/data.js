@@ -224,32 +224,32 @@ export const skills = [
   {
     name: "Jest",
     level: 89,
-    color: "#741b47",
+    color: "#cd853f",
   },
   {
     name: "Oracle",
     level: 85,
-    color: "#fd1504",
+    color: "#cd853f",
   },
   {
     name: "Postman",
     level: 99,
-    color: "#fa6c08",
+    color: "#cd853f",
   },
   {
     name: "Git",
     level: 90,
-    color: "#999999",
+    color: "#cd853f",
   },
   {
     name: "Bootstrap",
     level: 97,
-    color: "#674ea7",
+    color: "#cd853f",
   },
   {
     name: "Java",
     level: 50,
-    color: "#0b5394",
+    color: "#cd853f",
   },
 ];
 

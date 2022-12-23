@@ -7,9 +7,6 @@ import { navigation } from "../data";
 import { XIcon } from "@heroicons/react/outline";
 import { MenuAlt3Icon } from "@heroicons/react/outline";
 
-// import components
-import { Socials } from "./Socials";
-
 // import framer-motion
 import { motion } from "framer-motion";
 
@@ -88,6 +85,9 @@ function NavMobile() {
                 duration={500}
                 offset={-70}
                 className="text-xl cursor-pointer capitalize"
+                onClick={() => {
+                  setIsOpen(false);
+                }}
               >
                 {item.name}
               </Link>
