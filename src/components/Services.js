@@ -8,12 +8,17 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
           {/* section title */}
-          <h2 className="section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block">
+          <h2 className="section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block font-body">
             What I do for clients
           </h2>
-          <p className="subtitle">
+          <p className="subtitle text-white">
             Find the best awesome services you need
-            <br /> to help you successfully meet your project <br />
+            <br />{" "}
+            <span className="text-accent">
+              {" "}
+              to help you successfully meet your project{" "}
+            </span>
+            <br />
             planning goals and deadline.{" "}
           </p>
         </div>
