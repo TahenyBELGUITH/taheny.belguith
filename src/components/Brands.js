@@ -9,7 +9,7 @@ const Brands = () => {
         {brands.map((brand, index) => {
           return (
             <div key={index}>
-              <img src={brand.img}></img>
+              <img src={brand.img} className="animate-bounce"></img>
             </div>
           );
         })}

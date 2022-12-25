@@ -22,7 +22,11 @@ const Footer = () => {
           <br></br>
           {/* copyright */}
           <p>
-            &copy; 2023 <span className="text-accent">Taheny Belguith</span> . All rights reserved.
+            &copy; 2023{" "}
+            <span className="text-accent animate-pulse">
+              <a href="https://github.com/TahenyBELGUITH">Taheny Belguith</a>
+            </span>{" "}
+            . All rights reserved.
           </p>
         </div>
       </div>

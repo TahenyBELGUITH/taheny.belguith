@@ -9,7 +9,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-6">
           <img
-            className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
+            className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl animate-pulse"
             src={Image}
           />
 
@@ -24,18 +24,17 @@ const About = () => {
               <p className="mb-8">
                 I’m currently completing coursework at Microverse, a remote
                 software development platform that allows devs worldwide to
-                pair-program and build projects together . <br />
-                I’ve spent the last several months completely immersed in remote
-                development building everything from landing pages to rails APIs
-                .
+                pair-program and build projects together.<br/> I’ve spent the last
+                several months completely immersed in remote development
+                building everything from landing pages to rails APIs.
               </p>
             </div>
             <a href="#contact" className="flex gap-6">
-              <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
+              <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
                 Contact
               </button>
               <a href={Resume} download>
-                <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
+                <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
                   my CV
                 </button>
               </a>

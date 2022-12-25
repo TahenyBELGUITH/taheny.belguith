@@ -49,27 +49,27 @@ import TestiImage6 from "./assets/img/testimonials/testimonial-6.jpg";
 // navigation
 export const navigation = [
   {
-    name: "1.home",
+    name: "Home",
     href: "home",
   },
   {
-    name: "2.about",
+    name: "About",
     href: "about",
   },
   {
-    name: "3.portfolio",
+    name: "Portfolio",
     href: "portfolio",
   },
   {
-    name: "4.services",
+    name: "Services",
     href: "services",
   },
   {
-    name: "5.testimonials",
+    name: "Testimonials",
     href: "testimonials",
   },
   {
-    name: "6.contact",
+    name: "Contact",
     href: "contact",
   },
 ];
@@ -126,40 +126,50 @@ export const brands = [
 export const projectsData = [
   {
     id: "1",
-    image: Project1,
+    image: Project5,
     name: "Expo Dubai Summit",
-    category: "UI/UX design",
+    category: "web development",
     href: "https://conference-page.vercel.app/",
+    code: "https://github.com/TahenyBELGUITH/conferencePage",
   },
   {
     id: "2",
     image: Project2,
-    name: "project name 2",
+    name: "E commerce product",
     category: "web development",
+    href: "",
+    code: "https://github.com/TahenyBELGUITH/E-commerce-product-page",
   },
   {
     id: "3",
     image: Project3,
-    name: "project name 3",
+    name: "Math magician",
     category: "UI/UX design",
+    href: "https://calculator-84ha.vercel.app/",
+    code: "https://github.com/TahenyBELGUITH/math-magicians-app",
   },
   {
     id: "4",
     image: Project4,
-    name: "project name 4",
+    name: "Product management system",
     category: "branding",
+    href: "https://tahenybelguith.github.io/CRUD/",
+    code: "https://github.com/TahenyBELGUITH/CRUD",
   },
   {
     id: "5",
-    image: Project5,
-    name: "project name 5",
-    category: "web development",
+    image: Project1,
+    name: "Space traveler's hub",
+    category: "UI/UX design",
+    href: "https://prismatic-lokum-46fd79.netlify.app/",
+    code: "https://github.com/TahenyBELGUITH/REACT-CAPSTONE-PROJECT",
   },
   {
     id: "6",
     image: Project6,
-    name: "project name 6",
+    name: "project name",
     category: "web development",
+    href: "",
   },
 ];
 

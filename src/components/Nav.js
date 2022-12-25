@@ -12,7 +12,7 @@ function Nav() {
         {navigation.map((item, index) => {
           return (
             <li
-              className="text-white hover:text-accent cursor-pointer"
+              className="text-white hover:text-accent cursor-pointer hover:rotate-3"
               key={index}
             >
               <Link
@@ -22,7 +22,7 @@ function Nav() {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="transition-all duration-300"
+                className="transition-all duration-300 "
               >
                 {item.name}
               </Link>

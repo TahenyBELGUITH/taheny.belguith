@@ -34,20 +34,20 @@ const Projects = () => {
     <div>
       {/* nav */}
       <nav className="mb-12 max-w-xl mx-auto">
-        <ul className="flex flex-col md:flex-row justify-evenly items-center text-white">
+        <ul className="flex flex-col md:flex-row justify-evenly items-center text-white cursor-pointer">
           {projectsNav.map((item, index) => {
             return (
-              <li
-                onClick={(e) => {
-                  handleClick(e, index);
-                }}
-                key={index}
-                className={`${
-                  active === index ? "active" : ""
-                } cursor-pointer capitalize m-4`}
-              >
-                {item.name}
-              </li>
+                <li
+                  onClick={(e) => {
+                    handleClick(e, index);
+                  }}
+                  key={index}
+                  className={`${
+                    active === index ? "active" : ""
+                  } cursor-pointer capitalize m-4`}
+                >
+                  {item.name}
+                </li>
             );
           })}
         </ul>

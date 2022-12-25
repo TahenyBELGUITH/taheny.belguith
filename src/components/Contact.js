@@ -64,7 +64,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-body text-xl mb-1">{title}</h4>
                     <p className="mb-1">{subtitle}</p>
-                    <p className="text-accent font-normal">
+                    <p className="text-accent font-normal animate-pulse">
                       <a href="mailto: taheny.belguith@gmail.com">
                         {description}
                       </a>
@@ -112,7 +112,7 @@ const Contact = () => {
             <button
               value="send"
               type="submit"
-              className="btn btn-lg bg-accent hover:bg-accent-hover"
+              className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
             >
               Send message
             </button>
