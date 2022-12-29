@@ -1,7 +1,9 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Swal from "sweetalert2";
-import {FiMail} from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // import contact data
 import { contact } from "../data";
@@ -31,12 +33,9 @@ const Contact = () => {
     e.target.reset();
   };
 
-  const showAlert = () => {
-    Swal.fire({
-      title: "Success",
-      text: "Thank you, I'll contact you soon",
-      icon: "success",
-      confirmButtonText: "OK",
+  const showToastMessage = () => {
+    toast.success("Success Notification !", {
+      position: toast.POSITION.TOP_LEFT,
     });
   };
   return (
@@ -115,11 +114,12 @@ const Contact = () => {
               type="submit"
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300
                 bg-transparent hover:bg-accent-hover text-accent font-semibold hover:text-white py-2 px-4 border border-accent-500 hover:border-transparent rounded items-center flex gap-2"
+              onClick={done && showToastMessage}
             >
-              <FiMail/>
+              <FiMail />
               Send message
             </button>
-            <span>{done && showAlert()}</span>
+            <ToastContainer />
           </form>
         </div>
       </div>
