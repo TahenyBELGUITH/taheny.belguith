@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 
 // import woman image
 import WomanImg from "../assets/img/banner-woman2.webp";
+import { BsFillTelephonePlusFill } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -18,26 +19,28 @@ const Hero = () => {
               I Build & Design <br /> Web Interfaces
             </h1>
             <Typewriter
+              className="text-accent"
               onInit={(typewriter) => {
                 typewriter
-                  .typeString(
-                    "I'm a passionate self-taught full-stack software engineer ."
-                  )
+                  .typeString("I'm a passionate full-stack software engineer")
                   .start();
               }}
             />
 
             <p className="pt-4 pb-8 md:pb-12 maw-w-[480px] text-lg text-center lg:text-left">
               {" "}
-              my passion for software lies in dreaming up ideas and Making them
-              come true with elegant interfaces.
+              I can help you build a product, feature, or website. Look through
+              some of my work and experience! If you like what you see and have
+              a project that needs to be coded, don't hesitate to contact me.
             </p>
 
             <a href="#contact">
               <button
                 type="button"
-                className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
+                className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300
+                bg-transparent hover:bg-accent-hover text-accent font-semibold hover:text-white py-2 px-4 border border-accent-500 hover:border-transparent rounded flex items-center gap-4"
               >
+                <BsFillTelephonePlusFill />
                 Work with me
               </button>
             </a>

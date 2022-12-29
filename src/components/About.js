@@ -1,5 +1,6 @@
 import React from "react";
 import Resume from "./Resume.pdf";
+import { BsFillTelephonePlusFill, BsDownload } from "react-icons/bs";
 
 // import images
 import Image from "../assets/img/about.webp";
@@ -24,17 +25,26 @@ const About = () => {
               <p className="mb-8">
                 I’m currently completing coursework at Microverse, a remote
                 software development platform that allows devs worldwide to
-                pair-program and build projects together.<br/> I’ve spent the last
-                several months completely immersed in remote development
-                building everything from landing pages to rails APIs.
+                pair-program and build projects together.
+                <br /> I’ve spent the last several months completely immersed in
+                remote development building everything from landing pages to
+                rails APIs.
               </p>
             </div>
             <a href="#contact" className="flex gap-6">
-              <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+              <button
+                className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300
+                bg-transparent hover:bg-accent-hover text-accent font-semibold hover:text-white py-2 px-4 border border-accent-500 hover:border-transparent rounded flex gap-2 items-center"
+              >
+                <BsFillTelephonePlusFill />
                 Contact
               </button>
               <a href={Resume} download>
-                <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                <button
+                  className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300
+                bg-transparent hover:bg-accent-hover text-accent font-semibold hover:text-white py-2 px-4 border border-accent-500 hover:border-transparent rounded flex items-center gap-2"
+                >
+                  <BsDownload />
                   my CV
                 </button>
               </a>

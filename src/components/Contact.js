@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import {FiMail} from "react-icons/fi";
 
 // import contact data
 import { contact } from "../data";
@@ -112,8 +113,10 @@ const Contact = () => {
             <button
               value="send"
               type="submit"
-              className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300"
+              className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300
+                bg-transparent hover:bg-accent-hover text-accent font-semibold hover:text-white py-2 px-4 border border-accent-500 hover:border-transparent rounded items-center flex gap-2"
             >
+              <FiMail/>
               Send message
             </button>
             <span>{done && showAlert()}</span>

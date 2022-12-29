@@ -11,8 +11,9 @@ const Portfolio = () => {
             My Latest work
           </h2>
           <p className="subtitle text-white">
-            I’d be happy to help you find{" "}
-            <span className="text-accent">a solution!</span>
+            I'm building scalable web applications, Mobile apps, and beautiful
+            websites
+            <span className="text-accent"> for companies!</span>
           </p>
           <Projects />
         </div>

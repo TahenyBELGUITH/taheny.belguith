@@ -1,46 +1,58 @@
-import React from "react";
-
-// import testimonials data
-import { testimonials } from "../data";
-
-// import swiper react components
+import React, { useRef, useState } from "react";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-// import swiper styles
+
+// Import Swiper styles
 import "swiper/css";
+import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import "../swiper.css";
+
+import "./styles.css";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper";
+import { EffectCoverflow, Pagination } from "swiper";
+
+import { testimonials } from "../data";
 
 const TestimonialSlider = () => {
   return (
     <>
       <Swiper
-        pagination={{
-          clickable: true,
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
         }}
-        autoplay={{
-          delay: 4500,
-          disableOnInterAction: false,
-        }}
-        modules={[Autoplay, Pagination]}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
         {testimonials.map((item, index) => {
           const { authorImg, authorText, authorName, authorPosition } = item;
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col lg:flex-row gap-12 lg:gap-32">
-                <div className="w-48 h-48 lg:w-[328px] lg:h-[328px]">
-                  <img className="rounded-2xl animate-pulse " src={authorImg} />
+              <div className="swiping">
+                <div>
+                  <img src={authorImg} />
                 </div>
-                <div className="flex flex-col max-w-3xl">
-                  <h5 className="font-body text-2xl mb-8 italic font-normal">
-                    {authorText}
+                <div>
+                  <h5 className="font-body">
+                    {authorText}{" "}
+                    <a
+                      href={item.href}
+                      className="text-accent-hover animate-pulse "
+                    >
+                      see more
+                    </a>
                   </h5>
                   <div>
-                    <p className="text-lg text-accent ">{authorName}</p>
+                    <p className="text-accent ">{authorName}</p>
                     <p>{authorPosition}</p>
                   </div>
                 </div>
