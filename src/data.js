@@ -137,8 +137,8 @@ export const projectsData = [
     image: Project2,
     name: "E commerce product",
     category: "web development",
-    href: "",
-    code: "https://to-dos-list-react-cp99.vercel.app/",
+    href: "https://to-dos-list-react-cp99.vercel.app/",
+    code: "https://github.com/TahenyBELGUITH/E-commerce-product-page",
   },
   {
     id: "3",
