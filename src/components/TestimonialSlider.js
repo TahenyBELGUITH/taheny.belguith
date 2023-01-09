@@ -47,6 +47,7 @@ const TestimonialSlider = () => {
                     <a
                       href={item.href}
                       className="text-accent-hover animate-pulse "
+                      target="_blank"
                     >
                       see more
                     </a>

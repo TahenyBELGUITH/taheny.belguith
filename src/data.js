@@ -45,6 +45,7 @@ import TestiImage3 from "./assets/img/testimonials/testimonial-3.jpg";
 import TestiImage4 from "./assets/img/testimonials/testimonial-4.jpg";
 import TestiImage5 from "./assets/img/testimonials/testimonial-5.jpg";
 import TestiImage6 from "./assets/img/testimonials/testimonial-6.jpg";
+import TestiImage7 from "./assets/img/testimonials/testimonial-7.jpg";
 
 // navigation
 export const navigation = [
@@ -131,6 +132,8 @@ export const projectsData = [
     category: "web development",
     href: "https://conference-page.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/conferencePage",
+    description:
+      "This project is based on an online website for EXPO DUBAI 2K20. The about-page can be accessed from the homepage with the 'About' link. The homepage can be accessed from the main logo, or the 'home' icon on the about-page. Also, on the mobile version , both these pages can be accessed through the 'hamburger menu'",
   },
   {
     id: "2",
@@ -139,6 +142,8 @@ export const projectsData = [
     category: "web development",
     href: "https://to-dos-list-react-cp99.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/E-commerce-product-page",
+    description:
+      "In this challenge, I'll build a beautiful product page. I'll be putting my JS skills to the test with a lightbox product gallery and cart functionality!",
   },
   {
     id: "3",
@@ -147,6 +152,8 @@ export const projectsData = [
     category: "UI/UX design",
     href: "https://calculator-84ha.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/math-magicians-app",
+    description:
+      "This is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: make simple calculations and read math-related quotes.",
   },
   {
     id: "4",
@@ -155,6 +162,8 @@ export const projectsData = [
     category: "branding",
     href: "https://tahenybelguith.github.io/CRUD/",
     code: "https://github.com/TahenyBELGUITH/CRUD",
+    description:
+      "In this challenge, create, read, update, and delete are the four basic operations of persistent storage.",
   },
   {
     id: "5",
@@ -163,13 +172,18 @@ export const projectsData = [
     category: "UI/UX design",
     href: "https://prismatic-lokum-46fd79.netlify.app/",
     code: "https://github.com/TahenyBELGUITH/REACT-CAPSTONE-PROJECT",
+    description:
+      "This is a React app working with the real live data from the SpaceX API. The application will allow users to book rockets and join selected space missions.",
   },
   {
     id: "6",
     image: Project6,
-    name: "project name",
+    name: "Netflix App",
     category: "web development",
-    href: "",
+    href: "https://redux-movie-app-seven.vercel.app/",
+    code: "https://github.com/TahenyBELGUITH/redux_movie_app",
+    description:
+      "This is a project movie rating application from scratch and along with that I used Axios for API calls, React Router DOM for Routing and Node-SASS for our SCSS compile to CSS.",
   },
 ];
 
@@ -333,9 +347,17 @@ export const testimonials = [
   {
     authorImg: TestiImage6,
     authorText: "Taheny is a great person to work with.At Microverse... ",
-    authorName: "Elisha Tetteyfio profile",
+    authorName: "Elisha Tetteyfio",
     authorPosition: "Full-Stack Developer",
     href: "https://www.linkedin.com/in/belguith-taheny/details/recommendations/?detailScreenTabIndex=0",
+  },
+  {
+    authorImg: TestiImage7,
+    authorName: "Elisha Tetteyfio ",
+    authorPosition: "Full-Stack Developer",
+    href: "https://www.linkedin.com/in/belguith-taheny/details/recommendations/?detailScreenTabIndex=0",
+    authorText:
+      "Taheny Belguith is one of the brightest software developers I've ever ...",
   },
 ];
 

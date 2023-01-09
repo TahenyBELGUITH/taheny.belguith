@@ -13,7 +13,12 @@ const Footer = () => {
             {social.map((item, index) => {
               const { href, icon } = item;
               return (
-                <a href={href} key={index} className="text-accent text-base">
+                <a
+                  href={href}
+                  target="_blank"
+                  key={index}
+                  className="text-accent text-base"
+                >
                   {icon}
                 </a>
               );
@@ -24,7 +29,9 @@ const Footer = () => {
           <p>
             &copy; 2023{" "}
             <span className="text-accent animate-pulse">
-              <a href="https://github.com/TahenyBELGUITH">Taheny Belguith</a>
+              <a href="https://github.com/TahenyBELGUITH" target="_blank">
+                Taheny Belguith
+              </a>
             </span>{" "}
             . All rights reserved.
           </p>
