@@ -27,6 +27,7 @@ import Project3 from "./assets/img/projects/p3.png";
 import Project4 from "./assets/img/projects/p4.png";
 import Project5 from "./assets/img/projects/p5.png";
 import Project6 from "./assets/img/projects/p6.png";
+import Project7 from "./assets/img/projects/p7.jpg";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -184,6 +185,16 @@ export const projectsData = [
     code: "https://github.com/TahenyBELGUITH/redux_movie_app",
     description:
       "This is a project movie rating application from scratch and along with that I used Axios for API calls, React Router DOM for Routing and Node-SASS for our SCSS compile to CSS.",
+  },
+  {
+    id: "7",
+    image: Project7,
+    name: "JCI Khniss",
+    category: "web development",
+    href: "https://my-jci.vercel.app/",
+    code: "https://github.com/TahenyBELGUITH/my_jci",
+    description:
+      "A representative website for an independent, not-for-profit organization, Joint Commission International (JCI) accredits and certifies health care organizations and programs across the globe.",
   },
 ];
 
