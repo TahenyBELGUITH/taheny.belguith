@@ -130,7 +130,7 @@ export const projectsData = [
     id: "1",
     image: Project5,
     name: "Expo Dubai Summit",
-    category: "web development",
+    category: "HTML/CSS/JS",
     href: "https://conference-page.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/conferencePage",
     description:
@@ -140,7 +140,7 @@ export const projectsData = [
     id: "2",
     image: Project2,
     name: "E commerce product",
-    category: "web development",
+    category: "Front-End (REACT)",
     href: "https://to-dos-list-react-cp99.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/E-commerce-product-page",
     description:
@@ -150,7 +150,7 @@ export const projectsData = [
     id: "3",
     image: Project3,
     name: "Math magician",
-    category: "UI/UX design",
+    category: "Front-End (REACT)",
     href: "https://calculator-84ha.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/math-magicians-app",
     description:
@@ -160,7 +160,7 @@ export const projectsData = [
     id: "4",
     image: Project4,
     name: "Product management system",
-    category: "branding",
+    category: "HTML/CSS/JS",
     href: "https://tahenybelguith.github.io/CRUD/",
     code: "https://github.com/TahenyBELGUITH/CRUD",
     description:
@@ -170,7 +170,7 @@ export const projectsData = [
     id: "5",
     image: Project1,
     name: "Space traveler's hub",
-    category: "UI/UX design",
+    category: "Front-End (REACT)",
     href: "https://prismatic-lokum-46fd79.netlify.app/",
     code: "https://github.com/TahenyBELGUITH/REACT-CAPSTONE-PROJECT",
     description:
@@ -180,7 +180,7 @@ export const projectsData = [
     id: "6",
     image: Project6,
     name: "Netflix App",
-    category: "web development",
+    category: "Front-End (REACT)",
     href: "https://redux-movie-app-seven.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/redux_movie_app",
     description:
@@ -190,8 +190,8 @@ export const projectsData = [
     id: "7",
     image: Project7,
     name: "JCI Khniss",
-    category: "web development",
-    href: "https://my-jci.vercel.app/",
+    category: "Front-End (REACT)",
+    href: "https://jci-khniss-official.vercel.app/",
     code: "https://github.com/TahenyBELGUITH/my_jci",
     description:
       "A representative website for an independent, not-for-profit organization, Joint Commission International (JCI) accredits and certifies health care organizations and programs across the globe.",
@@ -204,13 +204,13 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "UI/UX Design",
+    name: "HTML/CSS/JS",
   },
   {
-    name: "web development",
+    name: "Front-End (REACT)",
   },
   {
-    name: "branding",
+    name: "Back-End (RUBY)",
   },
 ];
 
