@@ -47,6 +47,7 @@ import TestiImage4 from "./assets/img/testimonials/testimonial-4.jpg";
 import TestiImage5 from "./assets/img/testimonials/testimonial-5.jpg";
 import TestiImage6 from "./assets/img/testimonials/testimonial-6.jpg";
 import TestiImage7 from "./assets/img/testimonials/testimonial-7.jpg";
+import TestiImage8 from "./assets/img/testimonials/testimonial-8.jpg";
 
 // navigation
 export const navigation = [
@@ -369,6 +370,15 @@ export const testimonials = [
     href: "https://www.linkedin.com/in/belguith-taheny/details/recommendations/?detailScreenTabIndex=0",
     authorText:
       "Taheny Belguith is one of the brightest software developers I've ever ...",
+  },
+  ,
+  {
+    authorImg: TestiImage8,
+    authorName: " Ranjit Luwang ",
+    authorPosition: "Full-Stack Developer",
+    href: "https://www.linkedin.com/in/belguith-taheny/details/recommendations/?detailScreenTabIndex=0",
+    authorText:
+      "On checked I had the pleasure of working with Taheny Belguith as a frontend...",
   },
 ];
 

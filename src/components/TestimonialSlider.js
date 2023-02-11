@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import "./styles.css";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 
 import { testimonials } from "../data";
 
@@ -21,6 +21,10 @@ const TestimonialSlider = () => {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
@@ -30,7 +34,7 @@ const TestimonialSlider = () => {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[Autoplay, EffectCoverflow, Pagination]}
         className="mySwiper"
       >
         {testimonials.map((item, index) => {
